@@ -1,21 +1,9 @@
 <template>
   <div class="vdpr-datepicker__calendar">
     <div class="vdpr-datepicker__calendar-control">
-      <span
-        class="vdpr-datepicker__calendar-control-prev"
-        :class="{
-          'vdpr-datepicker__calendar-control-disabled': isPrevDisabled,
-        }"
-        @click="onPrevClick"
-      ></span>
+      <span class="icon has-text-primary is-clickable pagination-previous"><i @click="onPrevClick" class="mdi mdi-chevron-left mdi-24px"></i></span>
       <span class="vdpr-datepicker__calendar-month-year">{{ monthYear }}</span>
-      <span
-        class="vdpr-datepicker__calendar-control-next"
-        :class="{
-          'vdpr-datepicker__calendar-control-disabled': isNextDisabled,
-        }"
-        @click="onNextClick"
-      ></span>
+      <span class="icon has-text-primary is-clickable pagination-next"><i @click="onNextClick" class="mdi mdi-chevron-right mdi-24px"></i></span>
     </div>
     <table class="vdpr-datepicker__calendar-table">
       <thead>

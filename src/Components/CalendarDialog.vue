@@ -34,10 +34,6 @@
     />
     <div class="vdpr-datepicker__calendar-actions">
       <div class="vdpr-datepicker__calendar-input-wrapper">
-        <span>{{ switchButtonLabel }}</span>
-        <switch-button :checked="isAllDay" @on-check-change="onCheckChange" />
-      </div>
-      <div class="vdpr-datepicker__calendar-input-wrapper">
         <span>{{ dateInput.labelStarts }}</span>
         <calendar-input-date
           :format="dateInput.format"

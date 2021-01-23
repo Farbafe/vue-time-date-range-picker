@@ -42,6 +42,9 @@
     width: 160px;
     padding: 5px 10px;
     font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     > :not(:first-child) {
       margin-top: 5px;

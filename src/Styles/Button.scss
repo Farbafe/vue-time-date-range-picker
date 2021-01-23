@@ -9,7 +9,6 @@ $color-button-submit: white;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  text-transform: capitalize;
   padding: 6px 12px;
   line-height: 1.5;
   white-space: nowrap;
@@ -24,10 +23,10 @@ $color-button-submit: white;
   &-default {
     color: $color-button-default;
     background-color: $bg-button-default;
-    border-color: darken($bg-button-default, 10%);
+    border-color: #333333;
 
     &:hover {
-      background-color: darken($bg-button-default, 10%);
+      background-color:  hsl(141, 100%, 89%);
     }
   }
 
