@@ -89,7 +89,7 @@ $color-calendar-header: #333;
 
       &:hover {
         cursor: pointer;
-        background-color: darken($bg-calendar-not-selected, 5%);
+        background-color: darken($bg-calendar-selected, 10%);
       }
     }
 
@@ -102,7 +102,7 @@ $color-calendar-header: #333;
       color: $color-calendar-highligted;
 
       &:hover {
-        background-color: darken($bg-calendar-highlighted, 5%);
+        background-color: darken($bg-calendar-highlighted, 10%);
       }
     }
 

@@ -5,7 +5,7 @@
       'vdpr-datepicker__calendar-dialog--inline': this.inline,
     }"
   >
-    <div class="vdpr-datepicker__calendar-button-helper" v-if="helpers.length">
+    <div class="vdpr-datepicker__calendar-button-helper is-size-7" v-if="helpers.length">
       <button
         v-for="btn in helpers"
         :key="'btn' + btn.name"
